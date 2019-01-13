@@ -1,4 +1,4 @@
-# Lab 1
+# Docker for Noobs - Lab 1
 ## Clone the repository via HTTPS
 - ``git clone https://github.com/dsp1283/DockerSLAC.git``
 ## Have a Python script and no local installation?
