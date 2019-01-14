@@ -11,7 +11,7 @@ In the cloned repo, go to ``/lab2/sample-layers``
 ### Run the image again
 ``docker run sample-layers``
 ### Edit Dockerfile
-Make ``COPY test.sh .`` the last instruction
+Move ``COPY test.sh .`` to be the second to last instruction
 ### Edit test.sh
 ### Run the image again
 ``docker run sample-layers``
