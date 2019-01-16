@@ -24,10 +24,11 @@ git add --all
 git commit -m "Some commit message"
 git push
 ```
-### Clone a DIFFERENT repository and checkout a developer branch (not master)
+### Clone the repository and branch of the person sitting to your left (not master)
+_Make sure you are not in the same directory of the previous repository you checked out_
 ```
 git clone <Repository>
-git checkout a-branch-that-someone-else-checked-in
+git checkout branch-of-person-to-your-left
 ```
 ### Follow the previous developer's instructions on how to update the functionality
 ### Update the Dockerfile and/or code and make it run!
@@ -37,3 +38,5 @@ git add --all
 git commit -m "Some commit message"
 git push
 ```
+### Checkout your original branch and pull down the latest code
+### See if your instructions were followed correctly!
