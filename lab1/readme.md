@@ -6,6 +6,6 @@ In the cloned repo, go to ``/lab1/sample-python``
 ### Build a Docker image with the name "sample-python"
 ``docker build -t sample-python .``
 ### Run the new image in interactive mode
-``docker run sample-python -it /bin/sh``
+``docker run -it sample-python /bin/sh``
 ### Execute the python script
-``python ./Add.py``
+``python Add.py``
