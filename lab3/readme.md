@@ -13,16 +13,27 @@ C++ | `git@github.com:dsp1283/slac-lab2-cplusplus.git`
 Python | `git@github.com:dsp1283/slac-lab2-python.git`
 Java 8 | `git@github.com:dsp1283/slac-lab2-java8.git`
 Java 12 | `git@github.com:dsp1283/slac-lab2-java12.git`
+
 ### Create a branch for yourself
 `git checkout -b some-unique-branch-name`
-### Create the Dockerfile from scratch and make it run!
-### Commit and push your code to the remote repository
+### Write some simple code in the specified language, create the Dockerfile from scratch, and make it run!
+### Add an instructions file for how you want the functionality to change
+### Commit and push your files to the remote repository
 ```
 git add --all
 git commit -m "Some commit message"
 git push
 ```
-### We will select 1 branch to merge in to master
-### Clone a different repository
-`git clone <Repository>`
-### Edit someone else's code and make it run!
+### Clone a __different__ repository and checkout a developer branch (not master)
+```
+git clone <Repository>
+git checkout a-branch-that-someone-else-checked-in
+```
+### Follow the previous developer's instructions for how to update the functionality
+### Update the Dockerfile and/or code and make it run!
+### Commit and push your files to the remote branch
+```
+git add --all
+git commit -m "Some commit message"
+git push
+```
