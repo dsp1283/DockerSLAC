@@ -17,9 +17,11 @@ Java 12 | `git@github.com:dsp1283/slac-lab2-java12.git`
 `git checkout -b some-unique-branch-name`
 ### Create the Dockerfile from scratch and make it run!
 ### Commit and push your code to the remote repository
-`git add --all`
-`git commit -m "Some commit message"`
-`git push`
+```
+git add --all
+git commit -m "Some commit message"
+git push
+```
 ### We will select 1 branch to merge in to master
 ### Clone a different repository
 `git clone <Repository>`
