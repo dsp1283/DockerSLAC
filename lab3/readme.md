@@ -24,12 +24,12 @@ git add --all
 git commit -m "Some commit message"
 git push
 ```
-### Clone a __different__ repository and checkout a developer branch (not master)
+### Clone a DIFFERENT repository and checkout a developer branch (not master)
 ```
 git clone <Repository>
 git checkout a-branch-that-someone-else-checked-in
 ```
-### Follow the previous developer's instructions for how to update the functionality
+### Follow the previous developer's instructions on how to update the functionality
 ### Update the Dockerfile and/or code and make it run!
 ### Commit and push your files to the remote branch
 ```
